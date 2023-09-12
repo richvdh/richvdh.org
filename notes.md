@@ -1,10 +1,8 @@
 Ops
 ---
-Build: `make html`
-Build with prod settings: `make publish`
-Start local server: `make devserver`
-
-
+Build: `pelican`
+Build with prod settings: `pelican -s publishconf.py`
+Start local server: `pelican -lr`
 
 TODO
 ----
