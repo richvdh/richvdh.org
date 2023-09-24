@@ -39,5 +39,22 @@ THEME = 'pelican-themes/pelican-bootstrap3'
 JINJA_ENVIRONMENT = {'extensions': ['jinja2.ext.i18n']}
 
 PLUGIN_PATHS = ['pelican-plugins']
-PLUGINS = ['i18n_subsites']
+PLUGINS = [
+    'i18n_subsites',
+    'simple_footnotes',
+]
 I18N_TEMPLATES_LANG = 'en'
+
+
+MARKDOWN = {
+    'extension_configs': {
+        'markdown.extensions.codehilite': {'css_class': 'highlight'},
+        'markdown.extensions.extra': {},
+        'markdown.extensions.meta': {},
+        'markdown.extensions.toc': {},
+        'smarty' : {
+            'smart_angled_quotes' : 'true'
+        },
+    },
+    'output_format': 'html5',
+}
