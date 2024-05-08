@@ -58,3 +58,26 @@ MARKDOWN = {
     },
     'output_format': 'html5',
 }
+
+
+# Tell Pelican to add files from 'extra' to the output dir
+STATIC_PATHS = [
+  'images',
+  'extra'
+]
+
+# Tell Pelican to change the path to 'static/custom.css' in the output dir
+EXTRA_PATH_METADATA = {
+    'extra/custom.css': {'path': 'static/css/custom.css'},
+}
+
+
+################################################################################
+#
+# pelican-bootstrap3 settings
+#
+################################################################################
+
+# Bootstrap theme, from https://bootswatch.com/
+BOOTSTRAP_THEME= 'cerulean'
+CUSTOM_CSS = 'static/css/custom.css'

@@ -1,8 +1,20 @@
 Ops
 ---
-Build: `pelican`
+Build to `output`: `pelican`
 Build with prod settings: `pelican -s publishconf.py`
 Start local server: `pelican -lr`
+
+Theming
+-------
+
+We're usung [pelican-bootstrap3](https://github.com/getpelican/pelican-themes/tree/master/pelican-bootstrap3).
+
+Some themes are available from https://bootswatch.com/ (todo: try a few more?),
+but none of them seem to use a serif font. Probably we need a custom CSS file?
+Or to fork a theme?
+
+
+
 
 TODO
 ----
@@ -11,6 +23,10 @@ TODO
 * (done) Find a better theme
   - no categories
   - decluttered front page
+* (done)_write an article
+* Improve appearance
+  - Serif font. And bigger.
+  - De-uglify date thingio
 
 * write an article
 
