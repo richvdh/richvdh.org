@@ -35,7 +35,8 @@ HIDE_SIDEBAR = True
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
 
-THEME = 'pelican-themes/pelican-bootstrap3'
+THEME = 'pelican-bootstrap3'
+
 JINJA_ENVIRONMENT = {'extensions': ['jinja2.ext.i18n']}
 
 PLUGIN_PATHS = ['pelican-plugins']
