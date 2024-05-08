@@ -21,3 +21,7 @@ jobs:
       - run: "pip install -r requirements.txt"
       
       - run: "pelican -s publishconf.py"
+
+      - uses: actions/upload-pages-artifact
+        with:
+          path: "output"
