@@ -1,5 +1,5 @@
 Title: Conventional Commits, considered harmful
-Date: 2023-09-12 21:00
+Date: 2024-05-08 21:00
 Summary: Why I'm not a fan of conventional commits.
 
 Every so often, I get involved with a project that has decided to use
