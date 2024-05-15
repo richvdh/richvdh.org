@@ -6,6 +6,18 @@ on:
   push:
     branches: [ "main" ]
 
+  # Allow manual launch
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Allow only one concurrent deployment
+concurrency:
+  group: "pages"
+
 jobs:
   build:
     runs-on: ubuntu-latest
