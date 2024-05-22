@@ -48,10 +48,6 @@ jobs:
       id-token: write
 
     steps:
-      - uses: actions/download-artifact@v4
-        with:
-          name: github-pages
-
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
