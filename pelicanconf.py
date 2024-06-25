@@ -53,6 +53,7 @@ MARKDOWN = {
         'markdown.extensions.extra': {},
         'markdown.extensions.meta': {},
         'markdown.extensions.toc': {},
+        'pymdownx.superfences': {},
         'smarty' : {
             'smart_angled_quotes' : 'true'
         },

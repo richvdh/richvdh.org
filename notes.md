@@ -7,13 +7,9 @@ Start local server: `pelican -lr`
 Theming
 -------
 
-We're usung [pelican-bootstrap3](https://github.com/getpelican/pelican-themes/tree/master/pelican-bootstrap3).
-
-Some themes are available from https://bootswatch.com/ (todo: try a few more?),
-but none of them seem to use a serif font. Probably we need a custom CSS file?
-Or to fork a theme?
-
-
+We're usung the
+[pelican-bootstrap3](https://github.com/getpelican/pelican-themes/tree/master/pelican-bootstrap3)
+pelican theme, itself with the `cerulean` bootstrap theme. There is also a bit of custom css.
 
 
 TODO
@@ -34,3 +30,12 @@ TODO
 * consider making `label-default` `visibility: none`
 * (done) link from richvdh.org
 * Write a readme
+
+Ideas
+-----
+ * the importance of comments.
+   * Don't make me reverse-engineer stuff.
+   * helps write better code
+ * the importance of small PRs
+   * make it easy on the reviewer
+   * helps write better code
