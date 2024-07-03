@@ -2,7 +2,9 @@ Menulabel: About
 Title: About me, and this blog
 
 Hi! My name is Richard van der Hoff, though I'm generally known on the internet
-as `richvdh`.
+as `richvdh`. You can also find me at
+[@richvdh@mastodon.me.uk](https://mastodon.me.uk/@richvdh) on Mastodon or
+[@richvdh:sw1v.org](https://matrix.to/#/@richvdh:sw1v.org) on Matrix.
 
 I am a Staff Software Engineer at [Element](https://element.io/), where I work
 on the [Matrix](https://matrix.org) ecosystem. My first proper software
