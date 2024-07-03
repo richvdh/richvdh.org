@@ -170,7 +170,7 @@ the code change?
 Conventional commits encourages you to define a "scope" for each commit. The
 problem is that, in practice, commits frequently end up spanning multiple
 scopes. So if you're using those scopes to produce changelogs for the different
-parts of your system, you're in a bit of an awkward spt.
+parts of your system, you're in a bit of an awkward spot.
 
 "That just means your change needed breaking down into smaller commits." Well,
 maybe. I am a big fan of small, atomic commits[ref]Yet another post for

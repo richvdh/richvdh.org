@@ -12,5 +12,5 @@ working in telecoms, content delivery networks, and even a stint working on
 user interfaces for Windows software.
 
 I'm starting this blog as a place to record some thoughts and experiences I've
-colleccted after a few laps around the block as a software engineer. Hopefully
+collected after a few laps around the block as a software engineer. Hopefully
 some of it will prove useful!
