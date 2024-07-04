@@ -16,3 +16,6 @@ user interfaces for Windows software.
 I'm starting this blog as a place to record some thoughts and experiences I've
 collected after a few laps around the block as a software engineer. Hopefully
 some of it will prove useful!
+
+The source for this blog is hosted on
+[Github](https://github.com/richvdh/richvdh.org).
