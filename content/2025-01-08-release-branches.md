@@ -75,8 +75,10 @@ the release, and only *then* do we worry about how to apply the fix to
 `main`. Ultimately, our urgent fix lands in users' hands more quickly.
 
 There's a second advantage to the "merge" approach, and it ties into git branch
-management in general[ref]A topic on which I, as ever, have Opinions, but I will sharte them another day[/ref] have plenty . In short, I prefer to merge release branches into `main`
-after the release is complete, for regular releases as well as hotfixes.
+management in general[ref]A topic on which I, as ever, have Opinions, but I
+will sharte them another day[/ref]. In short, I prefer to merge release
+branches into `main` after the release is complete, for regular releases as
+well as hotfixes.
 
 <!--
 https://www.mermaidchart.com/play#pako:eNp9jksOgkAMhq9SJyGsMOByLmBcmHiA2VSsTAMzmFp1Qbi7ouACH8v-j69_Z8r2QMaaLMtcVNaGrIvPI0k6jqwWOkjVU6DUQhrpooJNCj30SeJixboWPHkXAaBsQ2AFPlhwZvPoMjaj6MxnYos1weO6tVJ_83dCJxSCa7HMQaghPNPCGVCsBnuQl_lY3AvG0k-pbPBeQE9l3V4UAnL8PeGI578ThSv_DkzIz2c_q6vZ7GLOes8LJBXN0Ka_A-pfiBY
