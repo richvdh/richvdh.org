@@ -57,7 +57,7 @@ in a `usage()` function near the top of the script.
 
 Scripts shouldn't rely on being run from a specific directory. If my project has a
 script called `process`, I should be able to run it from the project directory
-(as `./process`), but it shoud *also* work if I run it from somewhere
+(as `./process`), but it should *also* work if I run it from somewhere
 completely different, as `~/projects/myproj/process`.
 
 This is often easy, but if your script runs other commands in your project, or
